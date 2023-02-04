@@ -1,0 +1,40 @@
+.g-checkbox {
+	position: relative;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+
+	input[type=checkbox] {
+		position: absolute;
+		visibility: hidden;
+	}
+
+	input:checked {
+		~ .label:before {
+			background-image: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' stroke-width='4' stroke='dodgerblue' fill='dodgerblue'%0A%3E%3Cpath d='M13 2 h74 a11 11,0 0 1,11 11 v74 a11 11,0 0 1,-11 11 h-74 a11 11,0 0 1,-11-11 v-74 a11 11,0 0 1,11-11 z'/%3E%3Cpath fill='white' stroke='white' d='M20 54 l20 20,40-40,-2-2,-38 38,-18-18 z' /%3E%3C/svg%3E%0A");
+		}
+	}
+
+	.label {
+		display: flex;
+		align-items: center;
+		width: 100%;
+
+		&:before {
+			content: '';
+			flex-shrink: 0;
+			display: inline-block;
+			width: 24px;
+			height: 24px;
+			background-image: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' stroke-width='4' stroke='black' fill='white'%0A%3E%3Cpath d='M13 2 h74 a11 11,0 0 1,11 11 v74 a11 11,0 0 1,-11 11 h-74 a11 11,0 0 1,-11-11 v-74 a11 11,0 0 1,11-11 z' /%3E%3C/svg%3E");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	}
+
+	.content {
+		width: 100%;
+		padding: 0 16px;
+		box-sizing: border-box;
+	}
+}
