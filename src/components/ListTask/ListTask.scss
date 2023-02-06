@@ -20,6 +20,10 @@
 		box-shadow: 6px 6px 14px rgba(0,0,0,0.2);
 		font-size: 20px;
 		font-weight: 400;
+		transition: 0.5s;
+		&:hover{
+			scale: (1.05);
+		}
 
 		&:not(:last-child) {
 			margin-bottom: 16px;
