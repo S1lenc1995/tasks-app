@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/tasks-app/static/css/main.926a125f.css",
+    "main.css": "/tasks-app/static/css/main.0209e561.css",
     "main.js": "/tasks-app/static/js/main.15171f51.js",
     "static/js/787.78dff3bc.chunk.js": "/tasks-app/static/js/787.78dff3bc.chunk.js",
     "index.html": "/tasks-app/index.html",
     "static/media/favorite.svg": "/tasks-app/static/media/favorite.d65b67ee68e0aa56ceb04648d5911e7b.svg",
     "static/media/message.svg": "/tasks-app/static/media/message.07edea80dc3daf794a45614a39fa595d.svg",
     "static/media/remove.svg": "/tasks-app/static/media/remove.217994490e4c3e9e2b39e33c65735048.svg",
-    "main.926a125f.css.map": "/tasks-app/static/css/main.926a125f.css.map",
+    "main.0209e561.css.map": "/tasks-app/static/css/main.0209e561.css.map",
     "main.15171f51.js.map": "/tasks-app/static/js/main.15171f51.js.map",
     "787.78dff3bc.chunk.js.map": "/tasks-app/static/js/787.78dff3bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.926a125f.css",
+    "static/css/main.0209e561.css",
     "static/js/main.15171f51.js"
   ]
 }
